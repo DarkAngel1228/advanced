@@ -76,8 +76,7 @@ class SiteController extends Controller
     {
         print_r(Yii::$service->admin->getId());
         print_r(Yii::$service->admin->getId());
-
-        //return $this->render('index');
+        print_r(Yii::$service->admin->menu->getMenu());
     }
 
     /**
