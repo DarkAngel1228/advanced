@@ -74,7 +74,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        print_r(Yii::$service->admin->getId());
+        print_r(Yii::$service->admin->getId());
+
+        //return $this->render('index');
     }
 
     /**
