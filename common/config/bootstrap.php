@@ -9,3 +9,9 @@ Yii::setAlias('@console', dirname(dirname(__DIR__)) . '/console');
  * 增加services层
  */
 Yii::setAlias('@services', dirname(dirname(__DIR__)) . '/services');
+
+/**
+ * @zhangjinyu
+ * 增加api接口
+ */
+Yii::setAlias('@api', dirname(dirname(__DIR__)) . '/api');
